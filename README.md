@@ -46,7 +46,7 @@ ENV=development
 Para construir y correr los contenedores:
 
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 Esto hará lo siguiente:
@@ -72,5 +72,5 @@ Esto hará lo siguiente:
 * Levantar los contenedores en segundo plano:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
